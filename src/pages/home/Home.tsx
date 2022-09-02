@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";;
 import { Card, Grid } from "../../components";
 import { PokemonList } from "../../interfaces";
 import { fetchPokemonList } from "../../services";
+import { useEffect, useState } from "react";;
 
 export const Home = () => {
   const [ pokemonList, setPokemonList] = useState<PokemonList | undefined>(undefined);
